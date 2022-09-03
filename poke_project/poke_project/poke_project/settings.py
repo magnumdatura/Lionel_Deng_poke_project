@@ -21,9 +21,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-=c+#dk@#h72-z+l8iy3diis9c8=-!isl-m5i@5$_f$p&oqi*0b'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -98,14 +95,8 @@ DATABASES = {
     }
 }
 
-# EMAIL test account for app
-# email: erderd131@gmail.com
-# password: owalekwvatwjxkyb
+
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'erderd131@gmail.com'
-EMAIL_HOST_PASSWORD = 'owalekwvatwjxkyb'
 EMAIL_USE_TLS = True
 
 

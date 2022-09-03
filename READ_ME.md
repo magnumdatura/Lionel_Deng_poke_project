@@ -1,9 +1,5 @@
 Gotta Catch ‘em All
 
-User Login:
-erderd131@gmail.com
-JabbaTheHutt321
-
 Hey guys thanks for the opportunity to take this test, it was a really fun challenge, and I used it as an opportunity to learn react-redux, django and djoser, where I'd previously been accustomed to react-context for the frontend and mongoDB / noSQL databases for the backend, with express.js.
 
 This doc runs through the layout of the project and how I understand key concepts in redux and django-djoser
